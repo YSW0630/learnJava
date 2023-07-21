@@ -1,9 +1,8 @@
 # 必贏的剪刀石頭布小程式 ✌👊🖐
 
 ## 效果
-(image)
 
-(video)
+![RPS](https://github.com/YSW0630/learnJava/assets/95664509/682f1853-4e19-4b6e-b6ef-1ef2dda06b90)
 
 ## 使用方式
 
