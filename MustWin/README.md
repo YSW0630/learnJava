@@ -6,7 +6,7 @@
 
 ## Demo
 
-[RPS Video](https://github.com/YSW0630/learnJava/assets/95664509/ae9e19b9-8a89-4f7d-8928-72a8bb25c546)
+[RPS video.webm](https://github.com/YSW0630/learnJava/assets/95664509/1d49b3a4-fb3c-4510-bcbe-3455023bd42e)
 
 ## 使用方式
 
