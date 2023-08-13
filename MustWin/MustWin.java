@@ -14,16 +14,18 @@ public class MustWin {
     System.out.println("|  _ <|  __/ ___) | | |_| | (_| | | | | | |  __/");
     System.out.println("|_| \\_\\_|   |____/   \\____|\\__,_|_| |_| |_|\\___|");
     System.out.println();
-    // 讓程式停頓
+    System.out.println("(Press Ctrl+C to exit)");
+    // 讓程式停頓 （網上查的）
     try {
       Thread.sleep(1000);
     } catch (InterruptedException e) {
       e.printStackTrace();
     }
   }
+
   public static void main(String[] args) {
     PrintLogo();
-    String[] special_weapons = {"大砲", "棒球棍", "核彈"};
+    String[] special_weapons = { "大砲", "棒球棍", "核彈" };
     String myFist;
     Scanner scanner = new Scanner(System.in);
     System.out.println("你想出什麼拳 (無論出什麼我絕對會贏..吧？) [1] rock [2] paper [3] scissors [4] special");
@@ -36,7 +38,7 @@ public class MustWin {
       } else if (myFist.equals("scissors") || myFist.equals("3")) {
         System.out.println("rock !");
       } else if (myFist.equals("special") || myFist.equals("4")) {
-        int r = (int)(Math.random()*10) % 3;
+        int r = (int) (Math.random() * 10) % 3;
         if (special_weapons[r].equals("大砲")) {
           System.out.println("使用大砲將對手轟飛!");
         } else if (special_weapons[r].equals("棒球棍")) {
@@ -46,7 +48,7 @@ public class MustWin {
         }
         System.exit(0);
       } else {
-        System.out.println("我不認得這個拳???\n請輸入數字 1 ~ 3或rock paper scissors");
+        System.out.println("我不認得這個拳???\n(ps: 請輸入數字 1 ~ 3或rock paper scissors)");
       }
     }
     scanner.close();
