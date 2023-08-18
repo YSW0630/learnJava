@@ -1,5 +1,5 @@
-import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class square_table {
     // java 中實現停頓效果 (link:
@@ -79,7 +79,7 @@ public class square_table {
                 System.out.print("速度請輸入 1 or 2 or slow or fast\n>> ");
                 speed = sc.next();
             }
-            System.out.print("請輸入今日的題數 (須為正整數)：\n>> ");
+            System.out.print("請輸入今日的題數 (須為正整數, 建議不要太大否則會有重複)：\n>> ");
             // user input test
             int probs;
             while (true) {
@@ -94,6 +94,7 @@ public class square_table {
                     sc.next(); // 清除無效數字
                 }
             }
+            // 生成測驗表
             for (int makeList_cnt = 0; makeList_cnt < probs; ++makeList_cnt) {
                 list.add((int) (Math.random() * 50) + 1);
                 ans.add(list.get(makeList_cnt) * list.get(makeList_cnt));
