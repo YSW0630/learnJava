@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MustWin {
+public class MustLose {
   public static void PrintLogo() {
     // 提供ascii art : figlet (http://www.figlet.org/)
     System.out.println("__        __   _                            _____");
