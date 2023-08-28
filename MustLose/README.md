@@ -19,6 +19,6 @@ sudo apt install git default-jre # archlinux: sudo pacman -S git jre-openjdk
 + 複製我的repository並執行程式
 ``` bash
 git clone https://github.com/YSW0630/learnJava
-cd learnJava/MustLose
-java MustLose
+cd learnJava/MustWin
+java MustWin
 ```
