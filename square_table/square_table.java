@@ -148,6 +148,7 @@ public class square_table {
 			System.out.print("Play Again ? (yes or no)\n>> ");
 			String checkAgain = sc.next();
 			again = checkAgain.equalsIgnoreCase("yes") ? true : false;
+			sc.close();
 		}
 	}
 }
