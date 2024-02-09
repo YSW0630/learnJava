@@ -10,14 +10,19 @@
 
 Linux:
 
-+ 安裝 ```git``` 與 ```java```
+1. 安裝 ```git``` 與 ```java```
++ **Ubuntu**
 ``` bash
-sudo apt install git default-jre # archlinux: sudo pacman -S git jre-openjdk
+sudo apt install git default-jre
+```
++ **Archlinux**
+``` bash
+sudo pacman -S git jr-openjdk
 ```
 
-java版本：**Java class data, version 61.0**
+Java version：**Java class data, version 61.0**
 
-+ 複製我的repository並執行程式
+2. 複製我的repository並執行程式
 ``` bash
 git clone https://github.com/YSW0630/learnJava
 cd learnJava/square_table
